@@ -1,0 +1,13 @@
+Class,URI,Label,Laymans Term,Status
+Action,http://purl.obolibrary.org/obo/BFO_0000015,process,"Action, Task",CORE
+Data Visualization,http://purl.obolibrary.org/obo/OBI_0200111,data visualization,Visualization,software property
+Data Validation,https://www.wikidata.org/wiki/Q3306762,data validation,Fact-Checking,software property
+Data Reasoning,https://www.wikidata.org/wiki/Q408386,inference,Knowledge-generation,software property
+Service,http://www.ebi.ac.uk/swo/SWO_0000001,software,Tool,CORE
+Service Type,https://www.wikidata.org/wiki/Q17155032,software category,Tool Type,nice to have but not needed
+Data Class,http://purl.obolibrary.org/obo/IAO_0000027,data item,"Type of Data (like Image, Meta)",CORE
+Data format,http://purl.obolibrary.org/obo/IAO_0000098,data format specification,File Format,CORE
+Neutral,https://www.wikidata.org/wiki/Q780706,interchange format,Exchange format,format property
+Data schema,https://www.wikidata.org/wiki/Q1172480,data model,Data Schema,CORE
+Data Schema Type,https://www.wikidata.org/wiki/Q6423319,knowledge organisation system,Data Schema Type,nice to have but not needed
+Action,http://purl.obolibrary.org/obo/IAO_0000007,action specification,,

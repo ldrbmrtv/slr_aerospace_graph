@@ -1,0 +1,10 @@
+Domain\Range,process,software,data item,data model,data format specification,interchange format,data visualization,data validation,inference
+process,,facilitatedBy,,,,,,,
+software,hasTask,,"hasInput, hasOutput",,,,,,
+data item,,"processed, producedBy",,,,,,,
+data model,,,,,,,,,
+data format specification,,,,,,,,,
+interchange format,,,,,,,,,
+data visualization,,,,,,,,,
+data validation,,,,,,,,,
+inference,,,,isBasedOn,,,,,

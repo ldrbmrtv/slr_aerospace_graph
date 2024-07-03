@@ -1,12 +1,16 @@
-from owlready2 import *
 import pandas as pd
+import os
+import json
+from owlready2 import *
 import types
 
 
 df_cl = pd.read_csv('classes.csv')
-df_re = pd.read_csv('relations.csv')
-df_re = df_re.set_index('Domain\Range')
-df = pd.read_csv('data.csv')
+
+with open(os.path.join('data_subset/', 'instance_types_dicts.json')) as file:
+    inst_data = json.load(file)
+
+df_data = pd.read_csv(os.path.join('data_subset/', 'paper_instance_occurrence_matrix.csv'))
 
 onto = get_ontology('http://tib.eu/slr')
 
@@ -17,42 +21,23 @@ with onto:
         cl = types.new_class(row['URI'], (Thing,))
         cl.label = row['Label']
 
-    # Relations
-    for ind, row in df_re.iterrows():
-        for col in df_re.columns:
-            if ind == col:
-                continue
-            if pd.isna(row[col]):
-                continue
-            for re in row[col].split(','):
-                re = re.strip()
-                re_cl = types.new_class(re, (ObjectProperty,))
-                re_cl.label = re
-                domain_cl = onto.search_one(label = ind)
-                range_cl = onto.search_one(label = col)
-                re_cl.domain = domain_cl
-                re_cl.range = range_cl
+    for key, value in inst_data.items():
+        cl = onto.search_one(label = key)
+        if cl:
+            for item in value:
+                inst = cl()
+                inst.label = item
 
-                for data_ind, data_row in df.iterrows():
-                    sub_label = data_row[ind]
-                    if pd.isna(sub_label):
-                        #sub_label = f'{data_ind}_{ind}'
-                        continue
-                    obj_label = data_row[col]
-                    if pd.isna(obj_label):
-                        #obj_label = f'{data_ind}_{col}'
-                        continue
-
-                    sub = onto.search_one(label = sub_label)
-                    if not sub:
-                        sub = domain_cl()
-                    sub.label = sub_label
-
-                    obj = onto.search_one(label = obj_label)
-                    if not obj:
-                        obj = range_cl()
-                    obj.label = obj_label
-                    re_cl[sub].append(obj)
+    Research = types.new_class('Research', (Thing,))
+    mentions = types.new_class('mentions', (ObjectProperty,))
+    for ind, row in df_data.iterrows():
+        res_inst = Research()
+        res_inst.label = row[0]
+        for col in df_data.columns:
+            if row[col]:
+                inst = onto.search_one(label = col)
+                if inst:
+                    res_inst.mentions.append(inst)
                     
 
 onto.save('onto.owl')

@@ -428,168 +428,6 @@
             "usedBy": [
                 "Latex"
             ]
-        },
-        "cpp, hpp": {
-            "label": "cpp, hpp",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "OpenFOAM wrapping"
-            ],
-            "usedBy": [
-                "Visual Studio Code"
-            ]
-        },
-        "JSON, mdpa": {
-            "label": "JSON, mdpa",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": "Skin Heat Exchanger simulation",
-            "usedBy": [
-                "Kratos Multiphysics"
-            ]
-        },
-        "md": {
-            "label": "md",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": "storing information",
-            "usedBy": [
-                "Obsidian"
-            ]
-        },
-        "pdb": {
-            "label": "pdb",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "cathode catalyst design"
-            ],
-            "usedBy": [
-                "molecular dynamics"
-            ]
-        },
-        "py, cpp, hpp, csv, inp, odb": {
-            "label": "py, cpp, hpp, csv, inp, odb",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Thermal Fluid Structure Interaction"
-            ],
-            "usedBy": [
-                "OpenFOAM, Abaqus, Kratos and TAU"
-            ]
-        },
-        "py, inp, odb": {
-            "label": "py, inp, odb",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": "Abaqus Wrapping",
-            "usedBy": [
-                "Visual Studio Code"
-            ]
-        },
-        "py, json": {
-            "label": "py, json",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "matrix manipulations, function plotting"
-            ],
-            "usedBy": [
-                "python"
-            ]
-        },
-        "xml, csv, .py": {
-            "label": "xml, csv, .py",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "noise modelling"
-            ],
-            "usedBy": [
-                "python"
-            ]
         }
     },
     "data item": {
@@ -2189,6 +2027,62 @@
             ],
             "orkg_candidates": []
         },
+        "hpp": {
+            "label": "hpp",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                ".h",
+                "C source code header",
+                "C++ header file",
+                "C/C++ header",
+                ".hpp",
+                ".hxx"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q29642901",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "OpenFOAM wrapping"
+            ]
+        },
+        "C++": {
+            "label": "C++",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                ".cpp",
+                ".cxx",
+                ".c",
+                "C++ script",
+                ".cc"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q111417227",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "OpenFOAM wrapping"
+            ],
+            "usedBy": [
+                "Visual Studio Code"
+            ]
+        },
         "cgns": {
             "label": "cgns",
             "source": [
@@ -2205,7 +2099,7 @@
             "tags": [
                 "instance"
             ],
-            "wikidata_uri": null,
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q2931409",
             "orkg_uri": null,
             "wikidata_candidates": [],
             "orkg_candidates": [],
@@ -2542,6 +2436,23 @@
             ],
             "orkg_candidates": []
         },
+        "inp": {
+            "label": "inp",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
         "JPEG": {
             "label": "JPEG",
             "source": "literature review",
@@ -2592,7 +2503,9 @@
         },
         "JSON": {
             "label": "JSON",
-            "source": "literature review",
+            "source": [
+                "literature review"
+            ],
             "instance_of": [
                 "data format specification"
             ],
@@ -2611,7 +2524,13 @@
                 "http://www.wikidata.org/entity/Q2063",
                 "http://www.wikidata.org/entity/Q19281804"
             ],
-            "orkg_candidates": []
+            "orkg_candidates": [],
+            "facilitates": [
+                "Skin Heat Exchanger simulation"
+            ],
+            "usedBy": [
+                "Kratos Multiphysics"
+            ]
         },
         "Knowledge Interchange Format (KIF)": {
             "label": "Knowledge Interchange Format (KIF)",
@@ -2671,22 +2590,77 @@
             "wikidata_candidates": [],
             "orkg_candidates": []
         },
-        "mat": {
-            "label": "mat",
+        "md": {
+            "label": "md",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification",
+                "data model"
+            ],
+            "aliases": [
+                "M\u2193",
+                "md",
+                ".md"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q1193600",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "storing information"
+            ],
+            "usedBy": [
+                "Obsidian"
+            ]
+        },
+        "MAT-file": {
+            "label": "MAT-file",
             "source": null,
             "instance_of": [
                 "data format specification"
             ],
             "aliases": [
-                ".mat"
+                "MAT-File Format",
+                ".mat",
+                "MATLAB MAT file",
+                "MAT file",
+                "mat",
+                "MATLAB MAT-File Format"
             ],
             "tags": [
                 "instance"
             ],
-            "wikidata_uri": null,
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q28770627",
             "orkg_uri": null,
             "wikidata_candidates": [],
             "orkg_candidates": []
+        },
+        "mdpa": {
+            "label": "mdpa",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                ".mdpa"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "Skin Heat Exchanger simulation"
+            ]
         },
         "Microsoft Office XML Flat File Format (UTF)": {
             "label": "Microsoft Office XML Flat File Format (UTF)",
@@ -2798,6 +2772,28 @@
             "wikidata_candidates": [],
             "orkg_candidates": []
         },
+        "OpenDocument Database file format family": {
+            "label": "OpenDocument Database file format family",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                ".odb",
+                "odb",
+                "Open Document Format",
+                "Open Document Database"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q29167495",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
         "Parasolid": {
             "label": "Parasolid",
             "source": "literature review",
@@ -2818,6 +2814,36 @@
                 "http://www.wikidata.org/entity/Q28975638"
             ],
             "orkg_candidates": []
+        },
+        "pdb": {
+            "label": "pdb",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "PalmDoc",
+                "PalmDOC",
+                "Palm DataBase",
+                "Palm OS Database",
+                ".pdb",
+                "PalmOS Database"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q7118753",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "cathode catalyst design"
+            ],
+            "usedBy": [
+                "molecular dynamics simulation|molecular dynamics"
+            ]
         },
         "pdf": {
             "label": "pdf",
@@ -3552,7 +3578,7 @@
             "hasFormat": [
                 "py, inp, odb",
                 "py",
-                "odb",
+                "OpenDocument Database file format family",
                 "inp"
             ]
         },
@@ -3998,6 +4024,30 @@
             "wikidata_candidates": [],
             "orkg_candidates": []
         },
+        "null": {
+            "label": null,
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "process"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitatedBy": [
+                "Visual Studio Code"
+            ],
+            "hasFormat": [
+                "C++ source code file",
+                "C header file"
+            ]
+        },
         "calculating": {
             "label": "calculating",
             "source": "literature review",
@@ -4066,7 +4116,7 @@
                 "molecular dynamics"
             ],
             "hasFormat": [
-                "pdb"
+                "PDB"
             ]
         },
         "caturing contextual information form information users (profiling techniques)": {
@@ -5394,7 +5444,7 @@
             ],
             "hasFormat": [
                 "cae",
-                "odb",
+                "OpenDocument Database file format family",
                 "py"
             ]
         },
@@ -6697,30 +6747,6 @@
             "wikidata_candidates": [],
             "orkg_candidates": []
         },
-        "null": {
-            "label": null,
-            "source": [
-                "expert survey"
-            ],
-            "instance_of": [
-                "process"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": "None",
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitatedBy": [
-                "Visual Studio Code"
-            ],
-            "hasFormat": [
-                "cpp",
-                "hpp"
-            ]
-        },
         "optimization": {
             "label": "optimization",
             "source": [
@@ -6792,7 +6818,7 @@
             ],
             "hasFormat": [
                 "m",
-                "mat"
+                "MAT-file"
             ]
         },
         "perliminary design": {
@@ -8621,7 +8647,7 @@
                 "Obsidian"
             ],
             "hasFormat": [
-                "md"
+                "Markdown"
             ]
         },
         "storing knowledge": {
@@ -9201,7 +9227,7 @@
             ],
             "hasFormat": [
                 "cae",
-                "odb",
+                "OpenDocument Database file format family",
                 "py"
             ]
         },
@@ -10865,7 +10891,7 @@
             ],
             "hasFormat": [
                 "m",
-                "mat"
+                "MAT-file"
             ]
         },
         "MAXQDR": {
@@ -11247,7 +11273,7 @@
                 "storing information"
             ],
             "hasFormat": [
-                "md"
+                "Markdown"
             ]
         },
         "on-board system": {
@@ -12702,8 +12728,10 @@
             "hasFormat": [
                 "Python Script|py",
                 "inp",
-                "odb",
-                "comma-separated values (csv)|CSV file"
+                "OpenDocument Database file format family",
+                "comma-separated values (csv)|CSV file",
+                "C++ source code file",
+                "C header file"
             ]
         },
         "visualization interface for physical programming": {
@@ -13809,6 +13837,34 @@
             "hasFormat": [
                 "tex",
                 "bib"
+            ]
+        },
+        "md": {
+            "label": "md",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification",
+                "data model"
+            ],
+            "aliases": [
+                "M\u2193",
+                "md",
+                ".md"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q1193600",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "storing information"
+            ],
+            "usedBy": [
+                "Obsidian"
             ]
         },
         "mdax": {

@@ -1,435 +1,4 @@
 {
-    "file_format": {
-        ".CAE, .ODB, .PY": {
-            "label": ".CAE, .ODB, .PY",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Finite Element Analysis"
-            ],
-            "usedBy": [
-                "Abaqus"
-            ]
-        },
-        ".dat, .plt": {
-            "label": ".dat, .plt",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "postprocessing"
-            ],
-            "usedBy": [
-                "Tecplot"
-            ]
-        },
-        ".grid, .pval (NETCDF)": {
-            "label": ".grid, .pval (NETCDF)",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "simulation"
-            ],
-            "usedBy": [
-                "TAU"
-            ]
-        },
-        ".json, .mdpa, .med": {
-            "label": ".json, .mdpa, .med",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Multidisciplinary models"
-            ],
-            "usedBy": [
-                "Kratos Multiphysics"
-            ]
-        },
-        ".m, .mat": {
-            "label": ".m, .mat",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "performance calculation",
-                "\"[[matrix manipulation, plotting]]\"",
-                "\"[[performance calculation]]\""
-            ],
-            "usedBy": [
-                "MATLAB",
-                "\"[[MATLAB]]\""
-            ]
-        },
-        " \t.m, .mat, .slx, .mdl": {
-            "label": " \t.m, .mat, .slx, .mdl",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "matrix manipulations, function plotting, data management & evaluation, control design"
-            ],
-            "usedBy": [
-                "MATLAB / simulink"
-            ]
-        },
-        ".m, .mat, .xls": {
-            "label": ".m, .mat, .xls",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Aerostructural optimization, aircraft design, plots"
-            ],
-            "usedBy": [
-                "MATLAB, Excel"
-            ]
-        },
-        ".m": {
-            "label": ".m",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Optimisation"
-            ],
-            "usedBy": [
-                "Matlab built in optimisers"
-            ]
-        },
-        "?": {
-            "label": "?",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Qualitative Survey Analysis "
-            ],
-            "usedBy": [
-                "Excel, MAXQDR"
-            ]
-        },
-        ".med": {
-            "label": ".med",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Meshing"
-            ],
-            "usedBy": [
-                "Salome"
-            ]
-        },
-        ".pdf": {
-            "label": ".pdf",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "writing papers"
-            ],
-            "usedBy": [
-                "overleaf"
-            ]
-        },
-        ".pptx": {
-            "label": ".pptx",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "presentations"
-            ],
-            "usedBy": [
-                "powerpoint"
-            ]
-        },
-        ".py": {
-            "label": ".py",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": "Skin Heat Exchanger",
-            "usedBy": "OpenFoam"
-        },
-        ".py, .dat": {
-            "label": ".py, .dat",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "postprocessing",
-                "\"[[load alleviation]]\"",
-                "\"[[postprocessing]]\""
-            ],
-            "usedBy": [
-                "Python",
-                "\"[[python]]\"",
-                "\"[[Python]]\""
-            ]
-        },
-        "*.py": {
-            "label": "*.py",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "code development",
-                "\"[[matrix manipulation]]\"",
-                "\"[[\"[[plotting]]\"]]\"",
-                "\"[[\"[[code development]]\"]]\"",
-                "\"[[\"[[matrix manipulation]]\"]]\""
-            ],
-            "usedBy": [
-                "python",
-                "\"[[python]]\"",
-                "\"[[\"[[python]]\"]]\""
-            ]
-        },
-        ".rdf": {
-            "label": ".rdf",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "reference management"
-            ],
-            "usedBy": [
-                "zotero"
-            ]
-        },
-        ".scmdb": {
-            "label": ".scmdb",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Foresight Scenarios"
-            ],
-            "usedBy": [
-                "Scenario Manager "
-            ]
-        },
-        ".step": {
-            "label": ".step",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "CAD"
-            ],
-            "usedBy": [
-                "onshape"
-            ]
-        },
-        ".su2": {
-            "label": ".su2",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Skin Heat Exchanger"
-            ],
-            "usedBy": [
-                "SU2"
-            ]
-        },
-        ".tex, .bib": {
-            "label": ".tex, .bib",
-            "source": "expert survey",
-            "instance_of": [
-                "file_format"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": null,
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "Scientific writing"
-            ],
-            "usedBy": [
-                "Latex"
-            ]
-        }
-    },
     "data item": {
         "2D drawing": {
             "label": "2D drawing",
@@ -2027,6 +1596,26 @@
             ],
             "orkg_candidates": []
         },
+        "BibTeX references": {
+            "label": "BibTeX references",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "bib",
+                ".bib"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q105859274",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
         "hpp": {
             "label": "hpp",
             "source": [
@@ -2081,6 +1670,33 @@
             ],
             "usedBy": [
                 "Visual Studio Code"
+            ]
+        },
+        "Abaqus/CAE model database": {
+            "label": "Abaqus/CAE model database",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "Abaqus model database",
+                "CAE model database",
+                "cae"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q127260595",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "Finite Element Analysis"
+            ],
+            "usedBy": [
+                "Abaqus"
             ]
         },
         "cgns": {
@@ -2155,6 +1771,23 @@
                 "instance"
             ],
             "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
+        "dat": {
+            "label": "dat",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q32097740",
             "orkg_uri": null,
             "wikidata_candidates": [],
             "orkg_candidates": []
@@ -2385,6 +2018,61 @@
             ],
             "orkg_candidates": []
         },
+        "GridMove grid template (grid)": {
+            "label": "GridMove grid template (grid)",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "grid",
+                ".grid"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q105856982",
+            "orkg_uri": null,
+            "wikidata_candidates": [
+                "http://www.wikidata.org/entity/P111"
+            ],
+            "orkg_candidates": [],
+            "facilitates": [
+                "simulation"
+            ],
+            "usedBy": [
+                "TAU"
+            ]
+        },
+        "Hewlett Packard Vector Graphic Plotter File (plt)": {
+            "label": "Hewlett Packard Vector Graphic Plotter File (plt)",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                ".plt",
+                "plt",
+                "HP Plotter"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q51331501",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "postprocessing"
+            ],
+            "usedBy": [
+                "Tecplot"
+            ]
+        },
         "Hyper Text Markup Language (html)": {
             "label": "Hyper Text Markup Language (html)",
             "source": "literature review",
@@ -2571,8 +2259,8 @@
                 "Scientific writing"
             ],
             "hasFormat": [
-                "tex",
-                "bib"
+                "TeX",
+                "BibTeX references"
             ]
         },
         "Lotus 1-2-3 Worksheet": {
@@ -2640,6 +2328,59 @@
             "wikidata_candidates": [],
             "orkg_candidates": []
         },
+        "MATLAB M-File": {
+            "label": "MATLAB M-File",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "m-file",
+                ".m",
+                "m",
+                "MATLAB Script File"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q15938816",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "performance calculation"
+            ],
+            "usedBy": [
+                "MATLAB"
+            ]
+        },
+        "MATLAB Simulink model (slx)": {
+            "label": "MATLAB Simulink model (slx)",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "slx",
+                "MATLAB Simulink model",
+                ".slx"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q105852723",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": "",
+            "usedBy": [
+                "Simulink"
+            ]
+        },
         "mdpa": {
             "label": "mdpa",
             "source": [
@@ -2660,6 +2401,31 @@
             "orkg_candidates": [],
             "facilitates": [
                 "Skin Heat Exchanger simulation"
+            ]
+        },
+        "med": {
+            "label": "med",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "multidisciplinary modeling",
+                "meshing"
+            ],
+            "usedBy": [
+                "Kratos Multiphysics",
+                "SALOME"
             ]
         },
         "Microsoft Office XML Flat File Format (UTF)": {
@@ -3027,6 +2793,33 @@
             ],
             "orkg_candidates": []
         },
+        "pval (NETCDF)": {
+            "label": "pval (NETCDF)",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "pval",
+                ".pval",
+                "NETCDF"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [
+                "simulation"
+            ],
+            "usedBy": [
+                "TAU"
+            ]
+        },
         "Python Script": {
             "label": "Python Script",
             "source": null,
@@ -3118,6 +2911,45 @@
             ],
             "orkg_candidates": []
         },
+        "resource description framework file format": {
+            "label": "resource description framework file format",
+            "source": [
+                "expert survey",
+                "literature review"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "resource description framework",
+                "rdf",
+                "rdf-file"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
+        "scmdb": {
+            "label": "scmdb",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
         "Simple Object Access Protocol\\r (SOAP)": {
             "label": "Simple Object Access Protocol\\r (SOAP)",
             "source": "literature review",
@@ -3168,6 +3000,28 @@
                 "http://www.wikidata.org/entity/Q124251983"
             ],
             "orkg_candidates": []
+        },
+        "Simulink Model (mdl)": {
+            "label": "Simulink Model (mdl)",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q105862869",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitates": [],
+            "usedBy": [
+                "MATLAB",
+                "Simulink"
+            ]
         },
         "Standard ACIS Text": {
             "label": "Standard ACIS Text",
@@ -3256,7 +3110,10 @@
         },
         "STEP file": {
             "label": "STEP file",
-            "source": "literature review",
+            "source": [
+                "literature review",
+                "expert survey"
+            ],
             "instance_of": [
                 "data format specification"
             ],
@@ -3336,6 +3193,30 @@
                 "http://www.wikidata.org/entity/Q124417923",
                 "http://www.wikidata.org/entity/Q125450728"
             ],
+            "orkg_candidates": [],
+            "usedBy": [
+                "Onshape"
+            ]
+        },
+        "TeX": {
+            "label": "TeX",
+            "source": [
+                "expert survey",
+                "literature review"
+            ],
+            "instance_of": [
+                "data format specification"
+            ],
+            "aliases": [
+                "TEX",
+                "tex"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q5301",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
             "orkg_candidates": []
         },
         "text file (txt)": {
@@ -4269,6 +4150,26 @@
             "hasFormat": [
                 "STEP file"
             ]
+        },
+        "computer-aided engineering (CAE)": {
+            "label": "computer-aided engineering (CAE)",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "process"
+            ],
+            "aliases": [
+                "CAE",
+                "computer-aided engineering"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q1050567",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
         },
         "computer-aided process planning (CAPP)": {
             "label": "computer-aided process planning (CAPP)",
@@ -5443,7 +5344,7 @@
                 "Abaqus"
             ],
             "hasFormat": [
-                "cae",
+                "CAE model database",
                 "OpenDocument Database file format family",
                 "py"
             ]
@@ -6817,7 +6718,7 @@
                 "MATLAB"
             ],
             "hasFormat": [
-                "m",
+                "MATLAB M-File",
                 "MAT-file"
             ]
         },
@@ -6898,7 +6799,7 @@
             ],
             "hasFormat": [
                 "dat",
-                "plt"
+                "Hewlett Packard Vector Graphic Plotter File (plt)"
             ]
         },
         "preliminary design": {
@@ -8375,8 +8276,8 @@
                 "Microsoft Word|Word"
             ],
             "hasFormat": [
-                "tex",
-                "bib",
+                "TeX",
+                "BibTeX references",
                 ".pdf"
             ]
         },
@@ -8540,7 +8441,7 @@
                 "TAU"
             ],
             "hasFormat": [
-                "grid",
+                "GridMove grid template (grid)",
                 "pval (NETCDF)"
             ]
         },
@@ -9226,7 +9127,7 @@
                 "Thermal Fluid Structure Interaction"
             ],
             "hasFormat": [
-                "cae",
+                "CAE model database",
                 "OpenDocument Database file format family",
                 "py"
             ]
@@ -10890,7 +10791,7 @@
                 "aircraft design"
             ],
             "hasFormat": [
-                "m",
+                "MATLAB M-File",
                 "MAT-file"
             ]
         },
@@ -12056,7 +11957,7 @@
                 "Foresight Scenarios"
             ],
             "hasFormat": [
-                ".scmdb"
+                "scmdb"
             ]
         },
         "semsearch": {
@@ -12228,7 +12129,7 @@
                 "Skin Heat Exchanger simulation"
             ],
             "hasFormat": [
-                ".su2"
+                "Statistical Analysis System utility file|.su2"
             ]
         },
         "sumo": {
@@ -12395,7 +12296,7 @@
                 "simulation"
             ],
             "hasFormat": [
-                "grid",
+                "GridMove grid template (grid)",
                 "pval (NETCDF)"
             ]
         },
@@ -13835,8 +13736,8 @@
                 "Scientific writing"
             ],
             "hasFormat": [
-                "tex",
-                "bib"
+                "TeX",
+                "BibTeX references"
             ]
         },
         "md": {
@@ -14753,6 +14654,25 @@
                 "instance"
             ],
             "wikidata_uri": "https://www.wikidata.org/wiki/Q6970266",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
+        "Statistical Analysis System utility file": {
+            "label": "Statistical Analysis System utility file",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [],
+            "aliases": [
+                ".sas7butl",
+                ".su7",
+                ".su2"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q29905141",
             "orkg_uri": null,
             "wikidata_candidates": [],
             "orkg_candidates": []

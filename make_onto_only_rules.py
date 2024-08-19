@@ -5,6 +5,8 @@ from owlready2 import *
 import types
 
 
+instance_data = 'obsidian_folder.json'
+
 def create_instance(label):
     inst = onto.search_one(label = label)
     if not inst:
@@ -19,7 +21,7 @@ df_cl = pd.read_csv('classes.csv')
 df_contributions = pd.read_csv(os.path.join('data_subset/', 'paper_instance_occurrence_matrix.csv'))
 df_rules = pd.read_csv(os.path.join('data_subset/', 'rules_cross_type.csv'))
 
-with open(os.path.join('data_subset/', 'instance_types_dicts.json')) as file:
+with open(os.path.join('data_subset/', instance_data)) as file:
     inst_data = json.load(file)
 
 inst_data_inverse = {}

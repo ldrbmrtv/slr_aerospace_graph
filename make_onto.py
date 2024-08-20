@@ -40,7 +40,8 @@ with onto:
                 inst = cl()
                 inst.label = item_value['label']
                 inst.aliase = item_value['aliases']
-                inst.wikidata_uri = item_value['wikidata_uri']
+                if item_value['wikidata_uri'] != 'None':
+                    inst.wikidata_uri = item_value['wikidata_uri']
 
     # Statements
     for ind, row in df_contributions.iterrows():
@@ -53,15 +54,19 @@ with onto:
                     contrib_inst.mentions.append(inst)
 
     # Rules
-    #for ind, row in df_rules.iterrows():
-    #    subj_inst = onto.search_one(label = row['antecedents'])
-    #    obj_inst = onto.search_one(label = row['consequents'])
-    #    if subj_inst and obj_inst:
-    #        obj_cl = obj_inst.is_a[0]
-    #        rel_label = f'has {str(obj_cl.label[0])}'
-    #        rel = onto.search_one(label = rel_label)
-    #        if rel:
-    #            rel[subj_inst].append(obj_inst)        
+    for ind, row in df_rules.iterrows():
+        subj_inst = onto.search_one(label = row['antecedents'])
+        obj_inst = onto.search_one(label = row['consequents'])
+        if subj_inst and obj_inst:
+            obj_cl = obj_inst.is_a[0]
+            rel_label = f'has {str(obj_cl.label[0])}'
+            rel = onto.search_one(label = rel_label)
+            if rel:
+                rel[subj_inst].append(obj_inst)
+            else:
+                print(rel_label)
+        else:
+            print(row['antecedents'], row['consequents'])
 
 onto.save('onto.owl')
 onto.destroy()

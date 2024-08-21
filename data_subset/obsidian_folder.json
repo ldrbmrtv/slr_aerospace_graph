@@ -1643,35 +1643,6 @@
                 "OpenFOAM wrapping"
             ]
         },
-        "C++": {
-            "label": "C++",
-            "source": [
-                "expert survey"
-            ],
-            "instance_of": [
-                "data format specification"
-            ],
-            "aliases": [
-                ".cpp",
-                ".cxx",
-                ".c",
-                "C++ script",
-                ".cc"
-            ],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": "https://www.wikidata.org/wiki/Q111417227",
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitates": [
-                "OpenFOAM wrapping"
-            ],
-            "usedBy": [
-                "Visual Studio Code"
-            ]
-        },
         "Abaqus/CAE model database": {
             "label": "Abaqus/CAE model database",
             "source": [
@@ -3905,30 +3876,6 @@
             "wikidata_candidates": [],
             "orkg_candidates": []
         },
-        "null": {
-            "label": null,
-            "source": [
-                "expert survey"
-            ],
-            "instance_of": [
-                "process"
-            ],
-            "aliases": [],
-            "tags": [
-                "instance"
-            ],
-            "wikidata_uri": "None",
-            "orkg_uri": null,
-            "wikidata_candidates": [],
-            "orkg_candidates": [],
-            "facilitatedBy": [
-                "Visual Studio Code"
-            ],
-            "hasFormat": [
-                "C++ source code file",
-                "C header file"
-            ]
-        },
         "calculating": {
             "label": "calculating",
             "source": "literature review",
@@ -5792,7 +5739,9 @@
         },
         "k-search": {
             "label": "k-search",
-            "source": "literature review",
+            "source": [
+                "literature review"
+            ],
             "instance_of": [
                 "process"
             ],
@@ -6455,13 +6404,16 @@
         },
         "multi-disciplinary analysis and optimization (mdao)": {
             "label": "multi-disciplinary analysis and optimization (mdao)",
-            "source": "literature review",
+            "source": [
+                "literature review"
+            ],
             "instance_of": [
                 "process"
             ],
             "aliases": [
                 "multi-disciplinary analysis and optimization",
-                "MDAO"
+                "MDAO",
+                "mdo"
             ],
             "tags": [
                 "instance"
@@ -6469,17 +6421,21 @@
             "wikidata_uri": "None",
             "orkg_uri": null,
             "wikidata_candidates": [],
-            "orkg_candidates": []
+            "orkg_candidates": [],
+            "isSaidToBeTheSameAs": "multi-disciplinary optimization (MDO)|MDO"
         },
         "multi-disciplinary optimization (MDO)": {
             "label": "multi-disciplinary optimization (MDO)",
-            "source": "literature review",
+            "source": [
+                "literature review"
+            ],
             "instance_of": [
                 "process"
             ],
             "aliases": [
                 "multi-disciplinary optimization",
-                "MDO"
+                "MDO",
+                "mdao"
             ],
             "tags": [
                 "instance"
@@ -6596,8 +6552,8 @@
             ],
             "hasFormat": [
                 "XML",
-                "CSV",
-                "py"
+                "comma-separated values (csv)|CSV",
+                "Python Script|py"
             ]
         },
         "ontological engineering": {
@@ -6647,6 +6603,30 @@
             "orkg_uri": null,
             "wikidata_candidates": [],
             "orkg_candidates": []
+        },
+        "OpenFOAM wrapping": {
+            "label": "OpenFOAM wrapping",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "process"
+            ],
+            "aliases": [],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "None",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": [],
+            "facilitatedBy": [
+                "Visual Studio Code"
+            ],
+            "hasFormat": [
+                "C++ source code file",
+                "C header file"
+            ]
         },
         "optimization": {
             "label": "optimization",
@@ -6837,7 +6817,7 @@
                 "Microsoft PowerPoint"
             ],
             "hasFormat": [
-                ".pptx"
+                "pptx"
             ]
         },
         "problem solving": {
@@ -13193,6 +13173,27 @@
             ],
             "orkg_candidates": []
         },
+        "C++": {
+            "label": "C++",
+            "source": [
+                "expert survey"
+            ],
+            "instance_of": [
+                "data model"
+            ],
+            "aliases": [
+                "C Plus Plus",
+                "cpp",
+                "CPP"
+            ],
+            "tags": [
+                "instance"
+            ],
+            "wikidata_uri": "https://www.wikidata.org/wiki/Q2407",
+            "orkg_uri": null,
+            "wikidata_candidates": [],
+            "orkg_candidates": []
+        },
         "cco": {
             "label": "cco",
             "source": "literature review",
@@ -13929,7 +13930,9 @@
         },
         "orbital space environment domain ontology": {
             "label": "orbital space environment domain ontology",
-            "source": "literature review",
+            "source": [
+                "literature review"
+            ],
             "instance_of": [
                 "data model"
             ],

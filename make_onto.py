@@ -24,6 +24,8 @@ with onto:
     aliase.label = 'aliase'
     wikidata_uri = types.new_class('wikidata_uri', (AnnotationProperty,))
     wikidata_uri.label = 'wikidata_uri'
+    source = types.new_class('source', (AnnotationProperty,))
+    source.label = 'source'
 
     # Classes
     for ind, row in df_cl.iterrows():
@@ -40,8 +42,8 @@ with onto:
                 inst = cl()
                 inst.label = item_value['label']
                 inst.aliase = item_value['aliases']
-                if item_value['wikidata_uri'] != 'None':
-                    inst.wikidata_uri = item_value['wikidata_uri']
+                inst.wikidata_uri = item_value['wikidata_uri']
+                inst.source = item_value['source']
 
     # Statements
     for ind, row in df_contributions.iterrows():

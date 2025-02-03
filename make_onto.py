@@ -6,14 +6,14 @@ import types
 
 
 df_cl = pd.read_csv('classes.csv')
-df_contributions = pd.read_csv(os.path.join('data_subset/', 'paper_instance_occurrence_matrix_reviewed.csv'))
-df_rules = pd.read_csv(os.path.join('data_subset/', 'rules_cross_type_reviewed.csv'))
+df_contributions = pd.read_csv(os.path.join('data_subset/', 'paper_instance_occurrence_matrix_full.csv'))
+df_rules = pd.read_csv(os.path.join('data_subset/', 'rules_cross_type_full.csv'))
 
 with open(os.path.join('data_subset/', 'obsidian_folder.json')) as file:
     inst_data = json.load(file)
 
 #onto_path.append('slr.owl')
-onto = get_ontology('slr.owl').load()
+onto = get_ontology('slr2_reviewed.owl').load()
 
 with onto:
 
@@ -87,7 +87,5 @@ with onto:
             print(f'subject {row["antecedents"]} not found')
             
 
-onto.save('slr2_reviewed.owl')
+onto.save('slr2_full.owl')
 onto.destroy()
-        
-    
